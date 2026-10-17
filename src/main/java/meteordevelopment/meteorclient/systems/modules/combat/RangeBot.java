@@ -66,7 +66,7 @@ public class RangeBot extends Module {
         .name("animals").description("Target cows, pigs, sheep, etc.").defaultValue(false).build());
 
     public RangeBot() {
-        super(Categories.COMBAT, "range-bot", "Teleports to nearby targets and kills them while you hold a sword.");
+        super(Categories.Combat, "range-bot", "Teleports to nearby targets and kills them while you hold a sword.");
     }
 
     @EventHandler
