@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - master
+      - mc-26.2
 
 jobs:
   build:
